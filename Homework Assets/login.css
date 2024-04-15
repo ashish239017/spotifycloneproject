@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: #232323;
+}
+.btn{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 19rem;
+    border-radius: 15px;
+    
+}
+button{
+    margin: 20px;
+}
+.main{
+    /* display: flex; */
+    margin-left: 20%;
+    width: 800px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    border-radius: 15px;
+    height: 100%;
+    padding:5px 80px;
+}
+.login{
+    margin-left: 1rem;
+    background-color: black;
+
+}
+.login h1{
+    /* margin: 2rem; */
+    margin-top: 30px;
+    font-size: 50px;
+    /* margin-right: 40px; */
+    font-weight: 100;
+    width: 100%;
+
+}
+.nav-bar{
+    height: 100px;
+    background-color: black;
+    color: white;
+    /* margin: 0; */
+    font-size: x-large;
+}
+
+.btn-nav{
+    /* margin-bottom: 0; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
+}
+.b{
+    border: 1px solid white;
+}
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 0.5rem;
+    background-color: #232323;
+}
+#r{
+    width: 30px;
+    margin-right: 320px;
+    display: flex;
+    background-color: #1ED760;;
+}
+#login{
+    margin-top:-20px;
+    background-color: #1ED760;;
+    color: black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    color: white;
+    font-size: larger;
+}
+
+#r::-webkit-slider-runnable-track{
+    background-color: #1ED760;
+    /* height: 1rem; */
+    border-radius: 15px;
+}
+#r::-webkit-slider-thumb{
+    background-color: rgb(0, 0, 0);
+    appearance: none;
+    /* color: black; */
+    border-radius: 50%;
+   
+}
+.b a{
+    text-decoration: none;
+}
+
+.nav-bar img{
+    height: 50px;
+}
+
+hr{
+    width: 80%;
+}
